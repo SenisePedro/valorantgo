@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-content{
+    height: calc(100vh - 500px);;
+    background: no-repeat center/cover url("https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.webp");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+header nav {
+    display: flex; /* flex-direction: row;  -> Padrão */
+    justify-content: space-between;
+    margin: 0 80px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    /* flex-direction: row;  -> Padrão */
+}
+
+header nav ul li {
+    /* margin: top/bottom left/right; */
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.header-content img{
+    max-width: 300px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: solid 1px white;
+    font-weight: bold;
+    background: #EA4A5A;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
