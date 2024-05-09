@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #ECE8E1;
 }
 
 a {
@@ -117,10 +118,12 @@ header nav ul li {
 
 .title{
     font-family: "DIN Next Devanagari W05 Bold";
+    color: #FF4655;
 }
 
 .text-font{
     font-family: "DINNextW1G-Regular";
+    color: #383e3a;
 }
 
 /* Estilização tab menu "Mapas" */
@@ -159,3 +162,81 @@ ul.tabs li.current{
 }
 
 /* Final da estilização */
+
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5%;
+  width: 70%;
+  margin: 32px auto 32px auto;
+}
+
+hr{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.news-container{
+  width: 70%;
+  margin: 32px auto 32px auto;
+  padding: 0;
+}
+
+.card-img img{
+  width: 345px;
+  height: 195px;
+}
+
+.card-title{
+  font-family: "DINNextW1G-Regular";
+  font-weight: 600;
+}
+
+.news{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+  background-color: #111;
+  padding-bottom: 64px;
+  color: #fff;
+  font-family: "DINNextW1G-Regular";
+}
+.sitemap ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #292929;
+}
+
+.sitemap ul li{
+  color: #FFF;
+  padding: 20px;
+}
+
+.sitemap ul li:hover{
+  color: #EA4A5A;
+}
+
+.dev-footer{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.dev-cards{
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.dev{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
