@@ -240,3 +240,12 @@ footer{
   flex-direction: column;
   gap: 32px;
 }
+
+.page-title{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.page-title h2{
+  font-size: 40px;
+}

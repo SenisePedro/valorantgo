@@ -1,0 +1,26 @@
+.container-maps{
+	width: 70%;
+	margin: 0 auto;
+    padding: 32px;
+}
+
+
+.maps-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maps-content{
+    width: 50%;
+}
+
+.maps-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maps-img img{
+    width: 500px;
+}
