@@ -13,7 +13,7 @@ a {
 }
 
 .header-content{
-    height: calc(100vh - 500px);;
+    height: 440px;
     background: no-repeat center/cover url("https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.webp");
     display: flex;
     justify-content: center;
