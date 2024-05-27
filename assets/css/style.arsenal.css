@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-title-arsenal{
+    font-size: 30px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .page-title-arsenal::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 49%;
+    background-color: black;
+    top: 270px;
+    right: 225px;
+  }
