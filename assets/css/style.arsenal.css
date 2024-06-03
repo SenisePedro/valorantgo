@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 hr{
   margin: 64px auto;
 }
@@ -39,3 +40,34 @@ hr{
     font-family: "DINNextW1G-Regular";
     margin: 0;
   }
+=======
+.container-arsenal{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 70%;
+  margin: 32px auto;
+  gap: 32px;
+
+}
+.container-arsenal-inverso{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 70%;
+  margin: 32px auto;
+  gap: 32px;
+  flex-direction: row-reverse;
+
+}
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 0a50ebb7a4563cceccbd21a0897714665efd5eb0
