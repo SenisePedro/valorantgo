@@ -147,13 +147,14 @@ ul.tabs li{
 }
 
 ul.tabs li.current{
-	background: #ededed;
-	color: #222;
+	background: #fff;
+	color: #EA4A5A;
+  text-decoration: overline;
 }
 
 .tab-content{
 	display: none;
-	background: #ededed;
+	background: #fff;
 	padding: 15px;
 }
 

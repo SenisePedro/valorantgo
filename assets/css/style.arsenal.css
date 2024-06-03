@@ -1,16 +1,6 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
+hr{
+  margin: 64px auto;
+}
 
 .page-title-arsenal{
     font-size: 30px;
@@ -27,4 +17,25 @@
     background-color: black;
     top: 270px;
     right: 225px;
+  }
+
+  .page-title-arsenal{
+    font-size: 30px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .container-arsenal{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 64px;
+  }
+
+  .container-arsenal ul {
+    list-style: none;
+    font-family: "DINNextW1G-Regular";
+    margin: 0;
   }
