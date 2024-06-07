@@ -9,7 +9,7 @@ hr{
     display: flex;
   }
 
-  .page-title-arsenal::after {
+  /* .page-title-arsenal::after {
     content: '';
     position: absolute;
     height: 1px;
@@ -17,7 +17,7 @@ hr{
     background-color: black;
     top: 270px;
     right: 225px;
-  }
+  } */
 
   .page-title-arsenal{
     font-size: 30px;
@@ -39,3 +39,9 @@ hr{
     font-family: "DINNextW1G-Regular";
     margin: 0;
   }
+
+  .arsenal-nome{
+    font-weight: 600;
+    font-size: 32px;
+    color: #FF4655;
+}
